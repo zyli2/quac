@@ -1,0 +1,7 @@
+add_test( sumDigits /workspaces/cs225sub/release-f22/lab_quacks/build/test sumDigits  )
+set_tests_properties( sumDigits PROPERTIES WORKING_DIRECTORY /workspaces/cs225sub/release-f22/lab_quacks/build)
+add_test( triangle /workspaces/cs225sub/release-f22/lab_quacks/build/test triangle  )
+set_tests_properties( triangle PROPERTIES WORKING_DIRECTORY /workspaces/cs225sub/release-f22/lab_quacks/build)
+add_test( sum /workspaces/cs225sub/release-f22/lab_quacks/build/test sum  )
+set_tests_properties( sum PROPERTIES WORKING_DIRECTORY /workspaces/cs225sub/release-f22/lab_quacks/build)
+set( test_TESTS sumDigits triangle sum)
